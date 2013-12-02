@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+    Shopix_Nologin - Disable Magento customer register and login functionality.
+    Copyright (C) 2013 Shopix Pty Ltd (http://www.shopix.com.au)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<config>
+    <sections>
+        <customer>
+            <groups>
+                <startup>
+                    <fields>
+                        <nologin translate="label comment" module="shopix_nologin">
+                            <label>Disable customer registration and login</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </nologin>
+                    </fields>
+                </startup>
+            </groups>
+        </customer>
+    </sections>
+</config>

@@ -1,0 +1,4 @@
+code app/code/community/Shopix/Nologin
+design/layout/shopix_nologin.xml app/design/frontend/base/default/layout/shopix_nologin.xml
+design/template/shopix_nologin app/design/frontend/base/default/template/shopix_nologin
+Shopix_Nologin.xml app/etc/modules/Shopix_Nologin.xml
