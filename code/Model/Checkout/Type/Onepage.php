@@ -16,8 +16,6 @@
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-?>
-<?php
 
 class Shopix_Nologin_Model_Checkout_Type_Onepage extends Mage_Checkout_Model_Type_Onepage
 {
